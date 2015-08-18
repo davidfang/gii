@@ -1,0 +1,30 @@
+{
+    "name": "zc/gii",
+    "description": "This is my custom gii for yii2.0 .",
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+      "issues": "https://github.com/davidfang/gii",
+      "source": "https://github.com/davidfang/gii"
+    },
+    "require": {
+        "yiisoft/yii2": "~2.0",
+        "yiisoft/yii2-gii": "~2.0"
+    },
+    "authors": [
+        {
+            "name": "David Fang",
+            "email": "mw_fang@163.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+        "zc\\gii\\": ""
+      }
+    },
+    "extra": {
+      "branch-alias": {
+        "dev-master": "1.0.x-dev"
+      }
+    }
+}
